@@ -6,9 +6,7 @@
 <title>Join Our Telegram Channel</title>
 
 <style>
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     margin: 0;
@@ -19,7 +17,6 @@ body {
     padding: 40px 15px;
 }
 
-/* MAIN BOX */
 .container {
     max-width: 700px;
     width: 100%;
@@ -31,7 +28,6 @@ body {
     box-shadow: 0 0 25px #ff6a00;
 }
 
-/* PROFILE IMAGE */
 .profile-img {
     width: 170px;
     height: 170px;
@@ -41,15 +37,13 @@ body {
     border: 3px solid #ff6a00;
 }
 
-/* CHANNEL NAME */
 .channel-name {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 10px;
 }
 
-/* MEMBERS */
 .members {
     font-size: 20px;
     font-weight: bold;
@@ -57,7 +51,6 @@ body {
     margin-bottom: 18px;
 }
 
-/* TEXT */
 .text {
     font-size: 17px;
     color: #ddd;
@@ -65,7 +58,6 @@ body {
     line-height: 1.6;
 }
 
-/* BUTTONS BASE */
 .join-btn,
 .message-btn {
     width: 100%;
@@ -79,19 +71,16 @@ body {
     text-align: center;
 }
 
-/* ORANGE JOIN BUTTON */
 .join-btn {
     background: linear-gradient(45deg, #ff6a00, #ff9900);
     color: #fff;
 }
 
-/* BLUE MESSAGE BUTTON */
 .message-btn {
     background: #0088cc;
     color: #fff;
 }
 
-/* VIDEO RECTANGLE */
 .video-wrapper {
     margin-top: 30px;
     width: 100%;
@@ -108,7 +97,6 @@ video {
     object-fit: cover;
 }
 
-/* FINAL VIP SECTION */
 .final-section {
     margin-top: 40px;
     padding: 25px;
@@ -129,39 +117,18 @@ video {
     line-height: 1.6;
 }
 
-/* FOOTER */
 .footer {
     margin-top: 30px;
     font-size: 14px;
     color: #888;
 }
 
-/* MOBILE OPTIMIZATION */
 @media(max-width:480px){
-
-    body {
-        padding: 20px 10px;
-    }
-
-    .container {
-        padding: 30px 15px;
-    }
-
-    .profile-img {
-        width: 140px;
-        height: 140px;
-    }
-
-    .channel-name {
-        font-size: 24px;
-    }
-
-    .video-wrapper {
-        height: 220px;
-    }
-
-    .join-btn,
-    .message-btn {
+    body { padding: 20px 10px; }
+    .container { padding: 30px 15px; }
+    .profile-img { width: 140px; height: 140px; }
+    .video-wrapper { height: 220px; }
+    .join-btn, .message-btn {
         font-size: 16px;
         padding: 14px 15px;
     }
@@ -173,69 +140,53 @@ video {
 
 <div class="container">
 
-    <img src="https://raw.githubusercontent.com/rajendra9315/deepwebstudio/main/6237840880026979124.jpg" class="profile-img">
+<img src="https://raw.githubusercontent.com/rajendra9315/deepwebstudio/main/6237840880026979124.jpg" class="profile-img">
 
-    <div class="channel-name">𝑪𝑶𝑳𝑶𝑹 𝑷𝑹𝑬𝑫𝑰𝑪𝑻𝑰𝑶𝑵 𝑲𝑰𝑵𝑮 👑 | 𝑱𝑨𝑳𝑾𝑨 𝑮𝑨𝑴𝑬</div>
+<div class="channel-name">
+𝑪𝑶𝑳𝑶𝑹 𝑷𝑹𝑬𝑫𝑰𝑪𝑻𝑰𝑶𝑵 𝑲𝑰𝑵𝑮 👑 | 𝑱𝑨𝑳𝑾𝑨 𝑮𝑨𝑴𝑬
+</div>
 
-    <div class="members">🚀 89,000+ Members Already Joined</div>
+<div class="members">🚀 89,000+ Members Already Joined</div>
 
-    <div class="text">
-        Aap kis liye intezaar kar rahe ho?<br>
+<div class="text">
+Aap kis liye intezaar kar rahe ho?<br>
+Abhi Join Karo aur exclusive updates pao!
+</div>
 
-        
-        
-        Abhi Join Karo aur exclusive updates pao!
-    </div>
+<a href="YOUR_TELEGRAM_LINK" class="join-btn" target="_blank">
+👉 Click Here To Join Now
+</a>
 
-    <!-- FIRST JOIN BUTTON -->
-    <a href="YOUR_TELEGRAM_LINK" class="join-btn" target="_blank">
-        👉 Click Here To Join Now
-    </a>
-
-    <!-- VIDEO SECTION -->
-
-    <video id="promoVideo" muted playsinline controls>
-    <source src="https://raw.githubusercontent.com/rajendra9315/deepwebstudio/main/video6309853612671506603.mp4" type="video/mp4">
+<!-- AUTOPLAY VIDEO -->
+<div class="video-wrapper">
+<video autoplay muted playsinline controls>
+<source src="https://raw.githubusercontent.com/rajendra9315/deepwebstudio/main/video6309853612671506603.mp4" type="video/mp4">
 </video>
+</div>
 
-<script>
-const video = document.getElementById("promoVideo");
+<a href="YOUR_TELEGRAM_LINK" class="join-btn" target="_blank">
+🔥 Join Now
+</a>
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            video.play();
-        }
-    });
-}, { threshold: 0.6 });
+<div class="final-section">
+<h2>🔥 Personal Loss Recovery & VIP Sureshot</h2>
 
-observer.observe(video);
-</script>
+<p>
+Agar aapne loss face kiya hai toh tension mat lo.<br>
+VIP guidance ke saath recovery possible hai.<br>
+Direct support • Serious members only.
+</p>
 
-    <!-- SECOND JOIN BUTTON -->
-    <a href="YOUR_TELEGRAM_LINK" class="join-btn" target="_blank">
-        🔥 Join Now
-    </a>
+<!-- AUTO MESSAGE LINK -->
+<a href="https://t.me/SUNIL_BOOS?text=Hlo%20Brother%20Loss%20Recover%20Krwa%20Doge" 
+class="message-btn" target="_blank">
+💬 Message Now
+</a>
 
-    <!-- FINAL VIP SECTION -->
-    <div class="final-section">
-        <h2>🔥 Personal Loss Recovery & VIP Sureshot</h2>
+</div>
 
-        <p>
-            Agar aapne loss face kiya hai toh tension mat lo.<br>
-            VIP guidance ke saath recovery possible hai.<br>
-            Direct support • Serious members only.
-        </p>
-
-        <!-- BLUE MESSAGE BUTTON -->
-        <a href="https://t.me/SUNIL_BOOS" class="message-btn" target="_blank">
-            💬 Message Now
-        </a>
-    </div>
-
-    <!-- FOOTER -->
-    <div class="footer">
-        © 2026 Rajendra Rawat • All Rights Reserved
+<div class="footer">
+© 2026 Rajendra Rawat • All Rights Reserved
 </div>
 
 </div>
